@@ -23,3 +23,4 @@ Barbituric Acidは水素結合を介してRosette(ロゼット, ロゼッタで�
 - 'renaming_info.xlsx': リネームの対応表を格納しています。
 
 - 'chemical_structures': サンプル名に対応する化学構造式の情報をcdxml形式で格納しています。
+
