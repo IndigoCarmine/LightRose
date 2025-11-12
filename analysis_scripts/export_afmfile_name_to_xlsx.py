@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 
 
 def is_afm_file(file_path: str) -> bool:
@@ -27,7 +28,6 @@ def main():
                     afm_file_names.append(rel_path)
 
     print("Total AFM files found:", len(afm_file_names))
-    import pandas as pd
 
     df = pd.DataFrame(afm_file_names, columns=["AFM File Names"])
     df.to_excel(output_excel_file)
