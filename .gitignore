@@ -1,5 +1,7 @@
 raw_data/*
 renamed_data/*
 
+images/*
+
 chemical_structures/*.cdxml
 *.xlsx
